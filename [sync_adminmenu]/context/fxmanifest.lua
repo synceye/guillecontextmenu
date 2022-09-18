@@ -13,8 +13,3 @@ files {
     'ui/style.css',
     'ui/script.js'
 }
-
-escrow_ignore {
-    'client/*',
-    'ui/*'
-}
