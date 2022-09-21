@@ -63,7 +63,7 @@ AddEventHandler("openMenu", function(num)
     CreateThread(function()
         Wait(500)
         while isThis.menuOpened do
-            if IsControlJustPressed(0, 18) and (GetGameTimer() - GUI.Time) > 500 then
+            if IsControlJustPressed(0, 191) and (GetGameTimer() - GUI.Time) > 500 then
                 SendNUIMessage({
                     toExecute = tostring(selected);
                 })
